@@ -23,3 +23,11 @@ $ ```git init```
 $ `git config user.email myemail@gmail.com`
 17. And user.name   
 $ `git config user.name yourname`
+18. Add your changes to git index to commit  
+$ ```git add .```
+19. Commit your chages  
+$ ```git commit -m "Created new django project"```
+20. Add remote repository  
+$ ```git remote add origin [url-of-your-blank-remote-repo]```
+21. Push to your remote  
+$ ```git push --set-upstream origin master```
